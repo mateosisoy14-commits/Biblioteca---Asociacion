@@ -35,5 +35,24 @@ public void tomarPrestado(Libro libro){
     }
 }
 
+public void regresarLibro(){
+    if (libroActual == null) {
+        System.out.println("No tiene ningun Libro");
+
+        
+    }else {
+        libroActual.devolver();
+        libroActual = null;
+    }
+
+
+}
+
+public void mostrarEstado(){
+String Estado = (libroActual  != null) ? libroActual.getTitulo(): "Sin libro";
+System.out.println("Lector  " + nombre + "  Libro  " + Estado);
+}
+
+
 
 }
