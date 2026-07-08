@@ -56,7 +56,7 @@ public boolean prestar(){
     System.out.println("El libro '"+titulo+"'fue prestado");
     return true;
  }else{
-System.out.println("El libro '"+titulo+"' ya esta prestado");
+System.out.println("El libro '"+titulo+"' no se puede tomar porque ya esta prestado");
 return false;
  }
 }
