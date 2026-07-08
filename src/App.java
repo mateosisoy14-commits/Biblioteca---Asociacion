@@ -29,6 +29,19 @@ public class App {
         lector2.tomarPrestado(libro1);
         lector1.regresarLibro();
         lector2.tomarPrestado(libro1);
+
+
+        lector3.tomarPrestado(libro2);
+        lector3.mostrarEstado();
+        lector4.tomarPrestado(libro2);
+        lector3.regresarLibro();
+        lector4.tomarPrestado(libro2);
+
+        lector5.tomarPrestado(libro2);
+        lector4.regresarLibro();
+        lector5.tomarPrestado(libro2);
+
+
         
 
     }
